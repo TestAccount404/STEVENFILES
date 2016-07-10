@@ -167,7 +167,7 @@ fn main() {
         Box::new(proxy)
     }).unwrap();
 
-    info!("test compile");
+    info!("test compi");
 
     let resource_manager = Arc::new(RwLock::new(resources::Manager::new()));
     {
