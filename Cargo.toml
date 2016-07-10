@@ -1,0 +1,39 @@
+[package]
+name = "steven"
+version = "0.0.1"
+authors = [ "Thinkofdeath <thinkofdeath@spigotmc.org>" ]
+
+[dependencies]
+sdl2 = "0.16.1"
+byteorder = "0.5.0"
+hyper = "0.8.0"
+serde = "0.7.0"
+serde_json = "0.7.0"
+flate2 = "0.2.13"
+zip = "0.1.16"
+image = "0.7.0"
+time = "0.1.34"
+rand = "0.3.14"
+rustc-serialize = "0.3.18"
+log = "0.3.5"
+cgmath = "0.7.0"
+lazy_static = "0.1.15"
+collision = {git = "https://github.com/csherratt/collision-rs", rev = "f80825e"}
+openssl = "0.7.8"
+# clippy = "*"
+
+[dependencies.steven_gl]
+path = "./gl"
+version = "0"
+
+[dependencies.steven_resources]
+path = "./resources"
+version = "0"
+
+[dependencies.steven_blocks]
+path = "./blocks"
+version = "0"
+
+[dependencies.steven_shared]
+path = "./shared"
+version = "0"
